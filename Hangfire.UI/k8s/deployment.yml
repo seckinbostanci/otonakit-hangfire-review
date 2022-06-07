@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hangfire-ui
+  namespace: otonakit-notification
+  labels:
+    app: hangfire-ui
+spec:
+  replicas: 1
+  template:
+    metadata:
+      name: hangfire-ui
+      labels:
+        app: hangfire-ui
+    spec:
+      containers:
+        - name: hangfire-ui
+          image: otonakit-notification/hangfire-ui:v3
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 80
+      restartPolicy: Always
+  selector:
+    matchLabels:
+      app: hangfire-ui
