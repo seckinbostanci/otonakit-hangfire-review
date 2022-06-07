@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hangfire.UI", "Hangfire.UI\Hangfire.UI.csproj", "{80BBA227-214C-4D67-B407-5B7520FF4B32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hangfire.Server1", "Hangfire.Server1\Hangfire.Server1.csproj", "{2FD281CD-03C3-45C3-99EC-97BB4A400D1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80BBA227-214C-4D67-B407-5B7520FF4B32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80BBA227-214C-4D67-B407-5B7520FF4B32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80BBA227-214C-4D67-B407-5B7520FF4B32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80BBA227-214C-4D67-B407-5B7520FF4B32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FD281CD-03C3-45C3-99EC-97BB4A400D1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FD281CD-03C3-45C3-99EC-97BB4A400D1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FD281CD-03C3-45C3-99EC-97BB4A400D1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FD281CD-03C3-45C3-99EC-97BB4A400D1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
